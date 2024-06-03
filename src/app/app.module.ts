@@ -3,6 +3,7 @@ import {MatBadgeModule} from '@angular/material/badge';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
 //--
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
@@ -31,7 +32,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     MatBadgeModule,
     MatIconModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    MatButtonModule
   ],
   providers: [
     provideClientHydration(),
